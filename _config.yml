@@ -1,0 +1,70 @@
+﻿# Basic
+title: 张群伟
+subtitle: 
+description: 欢迎来到我的博客站~
+# 头像里面的标题
+avatarTitle: Z.J
+# 头像里面的描述
+avatarDesc: 嵌入式软件
+url: "https://zhangqunwei.github.io"
+
+# Comment
+comment:
+    disqus: 
+    # uyan: 2143225  # 有言id,登录有言官网申请
+
+# Social
+social:
+    weibo:  
+    github: zhangqunwei
+    # twitter: 
+    mail: 
+
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id:   
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+ga:
+    id:    
+    host:   
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#  _post/ 下的文章更换成你自己的文章
+#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: 
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}  
+    - {title: 项目, description: project, url: '/project'}    
+    - {title: 关于我, description: about, url: '/about'}          
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 20
+paginate_path: "page/:num/"
+
+
