@@ -17,14 +17,14 @@ $(document).ready(function() {
     
   });
 
-  if (window.location.hash && window.location.hash == "#blog") {
-    $('.panel-cover').addClass('panel-cover--collapsed');
-    $('.main-post-list').removeClass('hidden');
-  }
+  // if (window.location.hash && window.location.hash == "#blog") {
+  //   $('.panel-cover').addClass('panel-cover--collapsed');
+  //   $('.main-post-list').removeClass('hidden');
+  // }
 
-  if (window.location.pathname.substring(0, 5) == "/tag/") {
-    $('.panel-cover').addClass('panel-cover--collapsed');
-  }
+  // if (window.location.pathname.substring(0, 5) == "/tag/") {
+  //   $('.panel-cover').addClass('panel-cover--collapsed');
+  // }
 
   $('.btn-mobile-menu__icon').click(function() {
     // 导航按钮被点击
