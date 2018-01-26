@@ -22,3 +22,14 @@ layout: default
 
 {% include new-old.html %}
 {% include comments.html %}
+<script>
+if($('.post > img').alt == box1) {
+  $('.post > img').box-shadow(0,0,10);
+}
+if($('.post > img').alt == box2) {
+  $('.post > img').box-shadow(0,0,20);
+}
+if($('.post > img').alt == box3) {
+  $('.post > img').box-shadow(0,0,30);
+}
+</script>
