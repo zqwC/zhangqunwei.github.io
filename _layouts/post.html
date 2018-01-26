@@ -24,11 +24,6 @@ layout: default
 {% include comments.html %}
 <script>
   $("img[alt='box1']").css("box-shadow","0px 0px 10px ");
-
-if($(".post > img").attr("alt") == "box2") {
-  $(".post > img").css("box-shadow","0px 0px 20px");
-}
-if($(".post > img").attr("alt") == "box3") {
-  $(".post > img").css("box-shadow","0px 0px 30px");
-}
+  $("img[alt='box2']").css("box-shadow","0px 0px 20px ");
+  $("img[alt='box3']").css("box-shadow","0px 0px 30px ");
 </script>
