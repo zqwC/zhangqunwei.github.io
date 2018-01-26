@@ -22,14 +22,13 @@ layout: default
 
 {% include new-old.html %}
 {% include comments.html %}
-<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js">
-if($(".post > img").attr("alt") == "box1") {
-  $(".post > img").css("box-shadow","0 0 10");
-}
+<script>
+  $("img[alt='box1']").css("box-shadow","0px 0px 10px ");
+
 if($(".post > img").attr("alt") == "box2") {
-  $(".post > img").css("box-shadow","0 0 20");
+  $(".post > img").css("box-shadow","0px 0px 20px");
 }
 if($(".post > img").attr("alt") == "box3") {
-  $(".post > img").css("box-shadow","0 0 30");
+  $(".post > img").css("box-shadow","0px 0px 30px");
 }
 </script>
