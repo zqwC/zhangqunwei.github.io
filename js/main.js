@@ -31,13 +31,4 @@ $(document).ready(function() {
      this.style.backgroundColor = '#00f';// 设置颜色后会自动消失
   });  
 
-  if($('.post img').alt == box1) {
-    $('.post img').box-shadow(0,0,10);
-  }
-  if($('.post img').alt == box2) {
-    $('.post img').box-shadow(0,0,20);
-  }
-  if($('.post img').alt == box3) {
-    $('.post img').box-shadow(0,0,30);
-  }
 });
