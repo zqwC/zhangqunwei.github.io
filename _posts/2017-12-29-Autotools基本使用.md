@@ -58,9 +58,9 @@ tags: 工具使用
 * `make dist` 　　　自动打包    
 
 ### 操作演示
-![这里写图片描述](/images/post/2017-12-29-Autotools基本使用/20170619111042660-1.gif)
+![box3](/images/post/2017-12-29-Autotools基本使用/20170619111042660-1.gif)
 
 ### 总结：
 一图胜过千言万语
 
-![一图胜过千言万语](/images/post/2017-12-29-Autotools基本使用/20170619111726371-2.bmp)
+![box3](/images/post/2017-12-29-Autotools基本使用/20170619111726371-2.bmp)

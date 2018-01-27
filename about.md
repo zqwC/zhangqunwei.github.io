@@ -29,10 +29,12 @@ title: 关于我
 
 #### [怎样使用 GitHub？](https://www.zhihu.com/question/20070065)      
 
+UPDATE
 * 2018.01.14 04:00    
 * 2018.01.17 19:30
 * 2018.01.20 18:10
 * 2018.01.22 19:10
+* 2018.01.27 01:20
 
 {% include comments.html %}
 
